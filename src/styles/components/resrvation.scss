@@ -1,0 +1,22 @@
+.resrvation-cointiner{
+    height: 240px;
+    background: url(~@/assets/imgs/Bitmap.jpg) no-repeat;
+    background-size: 1440px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        button { 
+            width: 245px;
+            height: 64px;
+            background-color: #ffffff;
+            color: $clr3;
+            border: 0;
+        }
+        div{
+            font-size: 40px;
+            font-family: Spartan-bold;
+            letter-spacing: 0.55px;
+
+        }
+    
+}

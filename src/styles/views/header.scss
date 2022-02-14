@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.routes{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #fff;
+    *{
+        padding-left: 60px;
+    }
+}
+
+
+
+.logo{
+    svg{
+            position: relative;
+            left: 167px;
+            top: 65px;
+            width: 103px;
+            height: 40px;
+    }
+}

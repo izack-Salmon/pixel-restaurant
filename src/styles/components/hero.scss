@@ -1,0 +1,44 @@
+.hero-container{
+    *{
+        // margin: 0 165px;
+    }
+    
+    .img-hero{
+            position: absolute;
+            width: 890px;
+            height: 820px;
+            right: 230px;
+            top: 0px;
+            background:  url(../assets/imgs/hero.png)  no-repeat;  
+            margin: 0 auto;
+    }
+    .text-containter{
+        position: relative;
+        top: 180px;
+        font-size: 64px;
+        letter-spacing: 0.8;
+        line-height: 72px;
+        margin: 0 165px;
+
+        .hero-tiltle{
+        width: 524px;
+        margin-bottom: 24px;
+
+    }
+    .hero-text{
+        line-height: 1.8;
+        font-family: Opensans;
+        font-size: 18px;
+        width: 445px;
+        height: 90px;
+        margin-bottom: 42px;
+    }
+    button { 
+        width: 245px;
+        height: 64px;
+        background-color: #ffffff;
+        color: $clr3;
+        border: 0;
+    }
+}
+}
